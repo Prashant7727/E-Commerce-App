@@ -1,6 +1,6 @@
 {
   "name": "frontend",
-  "proxy": "https://e-commerce-backend-bice.vercel.app/",
+  "proxy": "https://e-commerce-backend-bice.vercel.app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
