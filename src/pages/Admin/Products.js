@@ -39,9 +39,9 @@ const Products = () => {
               >
                 <div className="card m-2" style={{ width: "18rem" }}>
                   <img
-                    src={`/api/v1/product/product-photo/${p._id}`}
+                    src={`https://e-commerce-backend-bice.vercel.app/api/v1/product/product-photo/${p._id}`}
                     className="card-img-top"
-                    alt={p.name}
+                    alt={p.name}   
                   />
                   <div className="card-body">
                     <h5 className="card-title">{p.name}</h5>
